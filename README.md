@@ -21,7 +21,7 @@ Optimized for CheXpert, Breast MRI/FFDM, Hep-2, and SOKL datasets.
 ### Dataset Configuration
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/medical-image-framework.git
+   git clone https://github.com/SaeedIqbal/FairBias.git
 ```
 
 ## 🛠️ Code Structure
