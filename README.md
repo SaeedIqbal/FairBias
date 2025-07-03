@@ -2,10 +2,10 @@
 # FairBias
 
 A comprehensive framework for multi-domain medical image analysis featuring:
-- **Quality-aware semi-supervised learning**
-- **Co-training with dual networks**
-- **Cross-domain adaptation**
-- **Class-aware noise separation**
+- Quality-aware semi-supervised learning
+- Co-training with dual networks
+- Cross-domain adaptation
+- Class-aware noise separation
 
 Optimized for CheXpert, Breast MRI/FFDM, Hep-2, and SOKL datasets.
 
@@ -13,10 +13,10 @@ Optimized for CheXpert, Breast MRI/FFDM, Hep-2, and SOKL datasets.
 
 | Dataset           | Modality       | Size       | Classes | Task                      | Source                                                                 |
 |--------------------|----------------|------------|---------|---------------------------|------------------------------------------------------------------------|
-| **CheXpert**       | Chest X-ray    | 224,316    | 14      | Pathology classification  | [arXiv:1901.07031](https://arxiv.org/abs/1901.07031)                  |
-| **Breast MRI/FFDM**| MRI/FFDM       | Variable   | 2-4     | Tumor classification      | [TCIA](https://www.cancerimagingarchive.net/)                         |
-| **Hep-2**          | Microscopy     | 11,000     | 6       | Cell pattern recognition  | [Kaggle](https://www.kaggle.com/datasets/arunava007/hep2-cell-images) |
-| **SOKL**           | Ultrasound/CT  | 5,000      | 5       | Kidney abnormality detection | [KidneyImage.org](https://www.kidneyimage.org/)                       |
+| CheXpert       | Chest X-ray    | 224,316    | 14      | Pathology classification  | [arXiv:1901.07031](https://arxiv.org/abs/1901.07031)                  |
+| Breast MRI/FFDM | MRI/FFDM       | Variable   | 2-4     | Tumor classification      | [TCIA](https://www.cancerimagingarchive.net/)                         |
+| Hep-2          | Microscopy     | 11,000     | 6       | Cell pattern recognition  | [Kaggle](https://www.kaggle.com/datasets/arunava007/hep2-cell-images) |
+| SOKL           | Ultrasound/CT  | 5,000      | 5       | Kidney abnormality detection | [KidneyImage.org](https://www.kidneyimage.org/)                       |
 
 ### Dataset Configuration
 1. Clone the repository:
